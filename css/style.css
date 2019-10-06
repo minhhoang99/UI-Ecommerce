@@ -265,6 +265,7 @@ body {
 
 .dropdown {
     padding: 2rem 1.5rem;
+    cursor: pointer;
 }
 
 .cart-search {
