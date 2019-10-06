@@ -385,7 +385,7 @@ i.fa.fa-star {
 }
 
 .fade {
-    animation: fade 2.5s infinite
+    animation: fade 3s infinite
 }
 
 @keyframes fade {
@@ -396,7 +396,7 @@ i.fa.fa-star {
         opacity: 1
     }
     100% {
-        opacity: 0
+        opacity: 1
     }
 }
 
