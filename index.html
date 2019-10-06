@@ -7,10 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>Home Page</title>
 </head>
 
 <body>
+    <a id="button"></a>
     <header>
         <div class="container">
             <div class="header-content">
@@ -51,12 +53,12 @@
                     <div id="cart-icon">
                         <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
                     </div>
-                    <div id="search-icon">
+                    <div id="search-icon" onclick="showSearh()">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
-
+            <input type="text" class="search animate-left">
         </div>
     </header>
     <section class="banner">
@@ -321,11 +323,26 @@
     </section>
     <section class="instagram-photo">
         <ul class="instagram-photo-list">
-            <li><img src="img/instagram/inst_1.png" alt="instagram"></li>
-            <li><img src="img/instagram/inst_2.png" alt="instagram"></li>
-            <li><img src="img/instagram/inst_3.png" alt="instagram"></li>
-            <li><img src="img/instagram/inst_4.png" alt="instagram"></li>
-            <li><img src="img/instagram/inst_5.png" alt="instagram"></li>
+            <li>
+                <img src="img/instagram/inst_1.png" alt="instagram">
+                <div class="hover-image"></div>
+            </li>
+            <li>
+                <img src="img/instagram/inst_2.png" alt="instagram">
+                <div class="hover-image"></div>
+            </li>
+            <li>
+                <img src="img/instagram/inst_3.png" alt="instagram">
+                <div class="hover-image"></div>
+            </li>
+            <li>
+                <img src="img/instagram/inst_4.png" alt="instagram">
+                <div class="hover-image"></div>
+            </li>
+            <li>
+                <img src="img/instagram/inst_5.png" alt="instagram">
+                <div class="hover-image"></div>
+            </li>
         </ul>
     </section>
     <footer>
@@ -386,7 +403,9 @@
             </ul>
         </div>
     </footer>
+
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
