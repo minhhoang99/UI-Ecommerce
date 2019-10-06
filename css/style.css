@@ -7,6 +7,25 @@
     box-sizing: border-box
 }
 
+.menu-dropdown {
+    position: absolute;
+    top: 84px;
+    left: 24px;
+    width: 150px;
+    background-color: #2f7dfc;
+    color: white;
+    display: none;
+}
+
+.menu-dropdown>li {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.menu-dropdown>li:hover {
+    color: yellow;
+    transition: 0.3s;
+}
+
 .social-icon {
     padding-right: 2rem;
 }
@@ -247,7 +266,7 @@ input[type="button"]:hover {
     color: #8c8c8c;
 }
 
-div#cart-icon {
+#cart-icon {
     margin-right: 2em;
     cursor: pointer;
     color: #4e4c4c;
@@ -266,6 +285,25 @@ body {
 .dropdown {
     padding: 2rem 1.5rem;
     cursor: pointer;
+}
+
+.drop {
+    position: relative;
+}
+
+.drop:hover .menu-dropdown {
+    display: block;
+}
+
+.drop:after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: 0.15em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
 }
 
 .cart-search {
@@ -450,4 +488,21 @@ i.fa.fa-instagram {
 i.fa.fa-instagram:hover {
     background: #f12929;
     color: white;
+}
+
+.animate-bottom {
+    /* position: relative; */
+    animation: animatebottom 0.9s;
+    transition: 0.5s;
+}
+
+@keyframes animatebottom {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 84px;
+        opacity: 1
+    }
 }
