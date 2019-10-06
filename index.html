@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="Winter">
+                </a>
+                <div class="menu">
+                    <div class="menu-content">
+                        <ul class="menu-list">
+                            <li class="dropdown nodrop">Home</li>
+                            <li class="dropdown">Shop</li>
+                            <li class="dropdown">Pages</li>
+                            <li class="dropdown">Blog</li>
+                            <li class="dropdown nodrop">Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cart-search">
+                    <div id="cart-icon">
+                        <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                    </div>
+                    <div id="search-icon">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <h2>Winter Fashion</h2>
+                    <h1>Fashion Collection 2019</h1>
+                    <div class="button">
+                        <input type="button" value="Shop Now">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature">
+        <div class="feature-content">
+            <ul class="feature-list">
+                <li class="feature-item" style="background-image: url('../img/feature_1.png')">
+                    <div class="feature-item-image">
+                        <div class="button-feature">
+                            <input type="button" value="Shop Now">
+                        </div>
+                    </div>
+                </li>
+                <li class="feature-item" style="background-image: url('../img/feature_2.png')">
+                    <div class="feature-item-image">
+                        <div class="button-feature">
+                            <input type="button" value="Shop Now">
+                        </div>
+                    </div>
+                </li>
+                <li class="feature-item" style="background-image: url('../img/feature_3.png')">
+                    <div class="feature-item-image">
+                        <div class="button">
+                            <input type="button" value="Shop Now">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="arrival">
+        <div class="container">
+            <div class="arrival-nav">
+                <div class="arrival-title">
+                    <h1>New Arrival</h1>
+                </div>
+                <ul class="arrival-list">
+                    <li onclick="activeMenu(1)">All</li>
+                    <li onclick="activeMenu(2)">Men</li>
+                    <li onclick="activeMenu(3)">Women</li>
+                    <li onclick="activeMenu(4)">Shoes</li>
+                </ul>
+            </div>
+        </div>
+        <div class="popular-product">
+            <ul class="popular-product-list">
+                <li class="big-product" onmouseover="showProductInfo(1)" onmouseout="hideProductInfo(1)">
+                    <div class="product-image">
+                        <img src="img/arrivel/arrivel_5.png" alt="FU">
+                    </div>
+                    <div class="product-detail">
+                        <div class="product-info fade">
+                            <h4 class="product-category">Canvas</h4>
+                            <h2>Lorem Canvas Low - Top Sneaker</h2>
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>$150</h3>
+                            <div class="product-option">
+                                <a href="#" class="favorite">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" class="cart">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="small-product" onmouseover="showProductInfo(2)" onmouseout="hideProductInfo(2)">
+                    <div class="product-image">
+                        <img src="img/arrivel/arrivel_2.png" alt="FU">
+                    </div>
+                    <div class="product-detail">
+                        <div class="product-info fade">
+                            <h4 class="product-category">Canvas</h4>
+                            <h2>Lorem Canvas Low - Top Sneaker</h2>
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>$150</h3>
+                            <div class="product-option">
+                                <a href="#" class="favorite">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" class="cart">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="small-product" onmouseover="showProductInfo(3)" onmouseout="hideProductInfo(3)">
+                    <div class="product-image">
+                        <img src="img/arrivel/arrivel_3.png" alt="FU">
+                    </div>
+                    <div class="product-detail">
+                        <div class="product-info fade">
+                            <h4 class="product-category">Canvas</h4>
+                            <h2>Lorem Canvas Low - Top Sneaker</h2>
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>$150</h3>
+                            <div class="product-option">
+                                <a href="#" class="favorite">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" class="cart">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="small-product" onmouseover="showProductInfo(4)" onmouseout="hideProductInfo(4)">
+                    <div class="product-image">
+                        <img src="img/arrivel/arrivel_4.png" alt="FU">
+                    </div>
+                    <div class="product-detail">
+                        <div class="product-info fade">
+                            <h4 class="product-category">Canvas</h4>
+                            <h2>Lorem Canvas Low - Top Sneaker</h2>
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>$150</h3>
+                            <div class="product-option">
+                                <a href="#" class="favorite">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" class="cart">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="small-product" onmouseover="showProductInfo(5)" onmouseout="hideProductInfo(5)">
+                    <div class="product-image">
+                        <img src="img/arrivel/arrivel_1.png" alt="FU">
+                    </div>
+                    <div class="product-detail">
+                        <div class="product-info fade">
+                            <h4 class="product-category">Canvas</h4>
+                            <h2>Lorem Canvas Low - Top Sneaker</h2>
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>$150</h3>
+                            <div class="product-option">
+                                <a href="#" class="favorite">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" class="cart">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="big-product" onmouseover="showProductInfo(6)" onmouseout="hideProductInfo(6)">
+                    <div class="product-image">
+                        <img src="img/arrivel/arrivel_6.png" alt="FU">
+                    </div>
+                    <div class="product-detail">
+                        <div class="product-info fade">
+                            <h4 class="product-category">Canvas</h4>
+                            <h2>Lorem Canvas Low - Top Sneaker</h2>
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>$150</h3>
+                            <div class="product-option">
+                                <a href="#" class="favorite">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" class="cart">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <section class="service">
+        <div class="container">
+            <ul class="service-list">
+                <li>
+                    <img src="img/icon/icon_1.png" alt="day deo phai icon nhe">
+                    <h3>Free Shipping</h3>
+                    <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
+                </li>
+                <li>
+                    <img src="img/icon/icon_2.png" alt="day deo phai icon nhe">
+                    <h3>Free Shipping</h3>
+                    <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
+                </li>
+                <li>
+                    <img src="img/icon/icon_3.png" alt="day deo phai icon nhe">
+                    <h3>Free Shipping</h3>
+                    <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
+                </li>
+                <li>
+                    <img src="img/icon/icon_4.png" alt="day deo phai icon nhe">
+                    <h3>Free Shipping</h3>
+                    <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="instagram-photo">
+        <ul class="instagram-photo-list">
+            <li><img src="img/instagram/inst_1.png" alt="instagram"></li>
+            <li><img src="img/instagram/inst_2.png" alt="instagram"></li>
+            <li><img src="img/instagram/inst_3.png" alt="instagram"></li>
+            <li><img src="img/instagram/inst_4.png" alt="instagram"></li>
+            <li><img src="img/instagram/inst_5.png" alt="instagram"></li>
+        </ul>
+    </section>
+    <footer>
+        <div class="container">
+            <ul class="footer-list">
+                <li id="category">
+                    <h2 class="footer-title">
+                        Category
+                    </h2>
+                    <ul class="footer-list-list">
+                        <li>Male</li>
+                        <li>Female</li>
+                        <li>Shoes</li>
+                        <li>Fashion</li>
+                    </ul>
+                </li>
+                <li id="company">
+                    <h2 class="footer-title">
+                        Company
+                    </h2>
+                    <ul class="footer-list-list">
+                        <li>About</li>
+                        <li>News</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                    </ul>
+                </li>
+                <li id="address">
+                    <h2 class="footer-title">
+                        Address
+                    </h2>
+                    <ul class="footer-list-list">
+                        <li>200, Green block, NewYork</li>
+                        <li>+10 456 267 1678</li>
+                        <li>Contact89@Winter.Com</li>
+                    </ul>
+                </li>
+                <li id="subcribe">
+                    <h2 class="footer-title">
+                        Newsletter
+                    </h2>
+                    <div class="subcribe">
+                        <input type="text" placeholder="Email Address">
+                        <input type="button" value="Subcribe" class="btn-footer">
+                    </div>
+                    <div class="social-icon-list">
+                        <div class="social-icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-icon">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-icon">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
