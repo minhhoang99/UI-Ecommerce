@@ -7,6 +7,23 @@
     box-sizing: border-box
 }
 
+address {
+    margin: auto 0;
+}
+
+.copyright-content {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 2px solid #292929;
+}
+
+.copyright {
+    background-color: black;
+    color: #c5c5c5;
+}
+
 .hover-image {
     position: absolute;
     width: 99%;
@@ -357,6 +374,22 @@ body {
 
 ul {
     list-style: none;
+}
+
+.copyright-list>li {
+    padding: 0 1rem;
+}
+
+.copyright-list {
+    display: flex;
+}
+
+.copyright-list>li>a {
+    color: #b3b3b3;
+}
+
+.copyright-list>li>a:hover {
+    color: yellow;
 }
 
 .footer-list {
