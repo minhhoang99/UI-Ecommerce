@@ -1,0 +1,85 @@
+/* responsive here */
+
+header,
+.banner,
+.feature,
+.arrival,
+.service,
+.instagram-photo,
+footer,
+.copyright {
+    width: 100%;
+}
+
+@media screen and (max-width: 575.98px) {}
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media screen and (max-width: 767.98px) {}
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media screen and (max-width: 991.98px) {
+    .arrival-nav {
+        display: block;
+    }
+    .arrival-list {
+        margin-top: 1rem;
+    }
+    .arrival-list li {
+        margin: auto 1rem auto 0rem;
+    }
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+    .feature-item {
+        max-width: 49%;
+        flex: 0 0 49%;
+    }
+    #category,
+    #company,
+    #address,
+    #subcribe {
+        flex: 50% 0 0;
+    }
+    .small-product,
+    .big-product {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+    .service-list {
+        grid-template-columns: auto auto;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        bottom: -254px;
+        background-color: white;
+    }
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown {
+        padding: 1rem 1.5rem;
+    }
+    .menu-dropdown {
+        position: absolute;
+        top: 45px;
+        left: 24px;
+        width: 150px;
+        background-color: black;
+        color: white;
+        display: none;
+    }
+    .nav-icon {
+        display: block;
+    }
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media screen and (max-width: 1199.98px) {}

@@ -7,6 +7,27 @@
     box-sizing: border-box
 }
 
+.button-feature {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature-item-text-post {
+    position: relative;
+}
+
+.feature-item-text-post {
+    overflow: hidden;
+}
+
+.feature-item-text-post img {
+    width: 100%;
+}
+
 address {
     margin: auto 0;
 }
@@ -59,6 +80,10 @@ address {
     border: none;
 }
 
+.search::placeholder {
+    color: white;
+}
+
 header {
     position: relative;
 }
@@ -99,7 +124,7 @@ header {
 
 .subcribe>input {
     padding: 1.03rem;
-    width: 18rem;
+    width: 100%;
     /* position: relative; */
     border: 1px solid #2f7dfc;
     /* font-size: 1rem; */
@@ -249,12 +274,11 @@ h3 {
 }
 
 .feature-item {
-    max-width: 404px;
-    width: 30%;
-    height: 485px;
+    flex: 0 0 32.333333%;
+    max-width: 33.333333%;
+    margin: 1rem 0rem;
+    overflow: hidden;
     background-size: cover;
-    position: relative;
-    margin: 2rem 1rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     /* transition: 0.7s; */
@@ -267,10 +291,10 @@ h3 {
 }
 
 .feature-item input {
-    position: absolute;
-    top: 43%;
+    /* position: absolute; */
+    /* top: 43%; */
     /* color: #fbfbfb !important; */
-    left: 30%;
+    /* left: 30%; */
     /* background-color: #4d59de73 !important; */
 }
 
@@ -291,6 +315,7 @@ input.btn-footer {
     width: 6rem;
     position: absolute;
     top: 0;
+    font-weight: 500;
     right: 0;
     /* border: 1px solid #2f7dfc; */
 }
@@ -395,6 +420,8 @@ ul {
 .footer-list {
     padding: 0 2rem;
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -448,11 +475,12 @@ ul {
 
 .feature-list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
     margin: 0;
+    /* overflow: hidden; */
     padding: 0;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu-list {
@@ -579,18 +607,18 @@ i.fa.fa-instagram:hover {
 
 .animate-bottom {
     /* position: relative; */
-    animation: animatebottom 0.9s;
+    animation: animatebottom 1s;
     transition: 0.5s;
 }
 
 @keyframes animatebottom {
     from {
-        top: -300px;
-        opacity: 0
+        height: 0px;
+        opacity: 0;
     }
     to {
-        top: 84px;
-        opacity: 1
+        opacity: 1;
+        height: max-content;
     }
 }
 
@@ -647,4 +675,10 @@ i.fa.fa-instagram:hover {
         left: 13%;
         opacity: 1
     }
+}
+
+.nav-icon {
+    /* align-items: center; */
+    margin: 2rem 0 2rem;
+    display: none;
 }

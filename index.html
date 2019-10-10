@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap-grid.css"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>Home Page</title>
 </head>
@@ -16,9 +18,13 @@
     <header>
         <div class="container">
             <div class="header-content">
+                <div class="nav-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
                 <a href="#" class="logo">
                     <img src="img/logo.png" alt="Winter">
                 </a>
+
                 <div class="menu">
                     <div class="menu-content">
                         <ul class="menu-list">
@@ -58,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <input type="text" class="search animate-left">
+            <input type="text" class="search animate-left" placeholder="Search here">
         </div>
     </header>
     <section class="banner">
@@ -77,23 +83,26 @@
     <section class="feature">
         <div class="feature-content">
             <ul class="feature-list">
-                <li class="feature-item" style="background-image: url('img/feature_1.png')">
-                    <div class="feature-item-image">
+                <li class="feature-item">
+                    <div class="feature-item-text-post">
+                        <img src="img/feature_1.png" alt="this's feature">
                         <div class="button-feature">
                             <input type="button" value="Shop Now">
                         </div>
                     </div>
                 </li>
-                <li class="feature-item" style="background-image: url('img/feature_2.png')">
-                    <div class="feature-item-image">
+                <li class="feature-item">
+                    <div class="feature-item-text-post">
+                        <img src="img/feature_2.png" alt="this's feature">
                         <div class="button-feature">
                             <input type="button" value="Shop Now">
                         </div>
                     </div>
                 </li>
-                <li class="feature-item" style="background-image: url('img/feature_3.png')">
-                    <div class="feature-item-image">
-                        <div class="button">
+                <li class="feature-item">
+                    <div class="feature-item-text-post">
+                        <img src="img/feature_3.png" alt="this's feature">
+                        <div class="button-feature">
                             <input type="button" value="Shop Now">
                         </div>
                     </div>
@@ -406,7 +415,7 @@
     <section class="copyright">
         <div class="container">
             <div class="copyright-content">
-                <address>Copyright ©2019 All rights reserved</address>
+                <address>Copyright ©2019 Made by NAT</address>
                 <ul class="copyright-list">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Contact</a></li>

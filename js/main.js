@@ -55,6 +55,7 @@ var searchBtn = document.querySelector("#search-icon");
 searchBtn.addEventListener("click", function() {
     var search = document.querySelector(".search");
     search.style.display = "block";
+    search.focus();
 });
 
 function showSearh() {
