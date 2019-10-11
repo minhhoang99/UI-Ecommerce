@@ -11,12 +11,51 @@ footer,
     width: 100%;
 }
 
-@media screen and (max-width: 575.98px) {}
+@media screen and (max-width: 575.98px) {
+    .feature-item {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    .small-product,
+    .big-product {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .service-list {
+        grid-template-columns: auto !important;
+    }
+    .instagram-photo-list>li {
+        width: 100%;
+        flex: auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        margin: 0 auto;
+    }
+    #category,
+    #company,
+    #address,
+    #subcribe {
+        flex: 100% 0 0 !important;
+        text-align: center;
+    }
+    .copyright-content {
+        padding: 1rem 0rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-top: 2px solid #292929;
+    }
+}
 
 
 /* Small devices (landscape phones, less than 768px) */
 
-@media screen and (max-width: 767.98px) {}
+@media screen and (max-width: 767.98px) {
+    .container {
+        padding: 0 40px;
+    }
+}
 
 
 /* Medium devices (tablets, less than 992px) */

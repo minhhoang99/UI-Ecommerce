@@ -67,7 +67,7 @@ address {
 
 .search {
     position: absolute;
-    width: 1000px;
+    min-width: 300px;
     padding: 0.7rem;
     margin: auto;
     bottom: -49%;

@@ -65,3 +65,11 @@ function showSearh() {
     else
         search.style.display = "none";
 }
+
+// handling nav-mobile
+$(document).ready(function() {
+    $(".nav-icon").click(function() {
+        $(".menu").toggle("slide");
+
+    });
+})
