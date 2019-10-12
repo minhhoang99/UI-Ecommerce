@@ -33,7 +33,7 @@ address {
 }
 
 .copyright-content {
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -290,17 +290,11 @@ h3 {
     transform: scale(1.04);
 }
 
-.feature-item input {
-    /* position: absolute; */
-    /* top: 43%; */
-    /* color: #fbfbfb !important; */
-    /* left: 30%; */
-    /* background-color: #4d59de73 !important; */
-}
-
 input[type="button"] {
     background-color: #2f7dfc;
+    -webkit-border-horizontal-spacing: unset;
     color: white;
+    -webkit-font-size-delta: 1rem;
     font-weight: 600;
     padding: 1.3rem 3.5rem;
     font-size: 1rem;
@@ -607,7 +601,7 @@ i.fa.fa-instagram:hover {
 
 .animate-bottom {
     /* position: relative; */
-    animation: animatebottom 1s;
+    animation: animatebottom 0.5s;
     transition: 0.5s;
 }
 
