@@ -158,6 +158,10 @@ i.fa.fa-heart-o:hover {
     padding: 5rem 2rem 0;
 }
 
+.reviews-option li {
+    margin-bottom: 2rem;
+}
+
 .reviews-option {
     display: flex;
     flex-wrap: wrap;
