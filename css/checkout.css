@@ -1,0 +1,49 @@
+#table-responsive {
+    /* display: none; */
+    padding-top: 3rem;
+}
+
+.table {
+    width: 100%;
+}
+
+.table tbody tr:first-child td {
+    border-top: 0px;
+    background-color: #9a9a9a;
+    text-align: center;
+}
+
+.table tbody tr:first-child td>h5 {
+    color: white;
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table tbody tr td {
+    padding-left: 65px;
+    padding-right: 65px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.table tbody tr td h5 {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 0px;
+    white-space: nowrap;
+}
+
+.button.checkout-btn {
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+    transition: 0.5s;
+}
