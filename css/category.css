@@ -54,6 +54,7 @@ ul.sidebar-left-box-list li {
 
 .category-product-image img {
     width: 100%;
+    cursor: pointer;
 }
 
 .category-product-icon ul {

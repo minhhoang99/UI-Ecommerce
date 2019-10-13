@@ -73,3 +73,18 @@ $(document).ready(function() {
 
     });
 })
+
+window.onload = function() {
+    var reviewsList = document.querySelectorAll(".reviews-option>li>span");
+
+    function addReviewActive(index) {
+        var des = document.querySelector("#description");
+        var tab = document.querySelector("#table-responsive");
+
+        for (let i = 0; i < reviewsList.length; i++) {
+            reviewsList[i].classList.remove("reviews-active");
+        }
+        reviewsList[index - 1].classList.add("reviews-active");
+
+    }
+}
