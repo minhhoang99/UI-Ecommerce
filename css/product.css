@@ -160,7 +160,7 @@ i.fa.fa-heart-o:hover {
 
 .reviews-option {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
 }
 

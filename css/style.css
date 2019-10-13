@@ -426,7 +426,7 @@ ul {
 }
 
 .instagram-photo-list>li>img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .instagram-photo-list>li>img:hover {
