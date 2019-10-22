@@ -71,7 +71,7 @@
         </div>
     </header>
     <!-- PATH CATEGORY -->
-    <nav class="breadcrumb">
+    <nav class="breadcrumb" style="margin:0;">
         <div class="container">
             <div class="path-container">
                 <a class="breadcrumb-item" href="#">Home</a>
@@ -115,7 +115,9 @@
                             <p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time.</p>
                             <div class="product-quantity">
 
+                                <span class="quantity-title">Quantity</span>
                                 <input type="number">
+
 
                             </div>
                             <div class="add-to-cart">
@@ -147,9 +149,7 @@
                             <li>
                                 <span href="#" onclick="addReviewActive(2);showReview(2)">Specification</span>
                             </li>
-                            <li>
-                                <span href="#" onclick="addReviewActive(3)">Comments</span>
-                            </li>
+
                         </ul>
                     </div>
                     <div class="col-lg-12">
@@ -394,10 +394,10 @@
                         Company
                     </h2>
                     <ul class="footer-list-list">
-                        <li>About</li>
-                        <li>News</li>
-                        <li>FAQ</li>
-                        <li>Contact</li>
+                        <li>Nguyễn Anh Tuấn</li>
+                        <li>Hà Anh Hùng</li>
+                        <li>Phạm Ích Dương</li>
+                        <li>Lê Minh Hoàng</li>
                     </ul>
                 </li>
                 <li id="address">
@@ -405,19 +405,22 @@
                         Address
                     </h2>
                     <ul class="footer-list-list">
-                        <li>200, Green block, NewYork</li>
-                        <li>+10 456 267 1678</li>
-                        <li>Contact89@Winter.Com</li>
+                        <li>So 1, Pham Van Dong, Ha Noi</li>
+                        <li>+12 345 678 1234</li>
+                        <li>Contact89@gmail.Com</li>
                     </ul>
                 </li>
                 <li id="subcribe">
                     <h2 class="footer-title">
                         Newsletter
                     </h2>
-                    <div class="subcribe">
-                        <input type="text" placeholder="Email Address">
-                        <input type="button" value="Subcribe" class="btn-footer">
-                    </div>
+                    <form>
+                        <div class="subcribe">
+                            <input type="text" placeholder="Email Address" id="email">
+                            <input type="button" value="Subcribe" class="btn-footer" id="validate">
+                        </div>
+                        <h3 id='result'></h3>
+                    </form>
                     <div class="social-icon-list">
                         <div class="social-icon">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -436,7 +439,7 @@
     <section class="copyright">
         <div class="container">
             <div class="copyright-content">
-                <address>Copyright ©2019 Made by NAT</address>
+                <address>Copyright ©2019 Made by Group20</address>
                 <ul class="copyright-list">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Contact</a></li>
