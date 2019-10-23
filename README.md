@@ -6,7 +6,7 @@
 - Đề bài: Thiết kế giao diện người dùng bất kì 
 ## Phân chia công việc: 
 - Phạm ích Dương: Product,Checkout.
-- Lê Minh Hoàng:  login,Vẽ layout.
+- Lê Minh Hoàng:  login,Vẽ layout, tìm ảnh.
 - Hà Anh Hùng: Category,contact.
 - Nguyễn Anh Tuấn: Home page, Js handling.
 
